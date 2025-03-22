@@ -66,18 +66,24 @@ section {
 /* About Me */
 .container-about-me {
   display: flex;
+  /* background-color: #0077b5; */
   width: 100%;
   justify-content: center;
   align-items: center;
 }
+.container-content-about-me{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .about-me img {
-  width: 200px;
+  width: 250px;
   border-radius: 50%;
 }
 
 .about-me-content {
-  width: 40%;
+  width: 50%;
   text-align: center;
 }
 
@@ -101,7 +107,7 @@ section {
   padding: 0 10px;
 }
 .iseng{
-  width: 80&;
+  width: 100%;
 }
 
 .footer-basic ul a {
