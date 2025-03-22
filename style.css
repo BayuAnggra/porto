@@ -42,7 +42,7 @@ html, body {
 section {
   background-color: rgb(231, 230, 230);
   width: 100%;
-  padding: 50px 20px 10px 20px;
+  /* padding: 50px 20px 10px 20px; */
   margin: 0;
 }
 
@@ -65,6 +65,7 @@ section {
 
 /* About Me */
 .container-about-me {
+
   display: flex;
   /* background-color: #0077b5; */
   width: 100%;
@@ -72,8 +73,9 @@ section {
   align-items: center;
 }
 .container-content-about-me{
+  margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -85,6 +87,14 @@ section {
 .about-me-content {
   width: 50%;
   text-align: center;
+}
+
+.bingung{
+  /* background-color: #005582; */
+  width: 100%;
+padding: 0;
+margin: 0 ;  
+align-items: center;
 }
 
 /* Footer */
